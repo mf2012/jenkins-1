@@ -1,8 +1,4 @@
 pipeline {
-  agent any
-  tools {
-        maven "maven3.9.8"
-  }  
   stages {
     stage('Test and Build'){
       steps {
