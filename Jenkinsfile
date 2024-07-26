@@ -4,12 +4,6 @@ pipeline {
         maven "maven3.9.8"
   }  
   stages {
-    stage('Checkout'){
-      steps {
-        sh "echo 'cloning the latest application version' "
-        # Generate pipeline syntax for this using your Github repository and PAT
-            }
-        }
     stage('Test and Build'){
       steps {
         sh "echo 'running Unit-test-cases' "
